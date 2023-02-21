@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.bottom {
+    margin-top: 100px;
+}
+
+.header-section {
+    background-image:
+    linear-gradient(to bottom, rgba(255,255,255, 0), black),
+    url("./images/banner3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar {
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+.nav-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.banner-section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 6;
+
+}
+.banner-section-title {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-section-desc {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn-big {
+    margin-top: 5px;
+    padding: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.329);
+    color:white;
+    font-size: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+.btn-big:hover {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+
+}
+.gd-icon {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.destinations {
+
+}
+.desc-list {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*overflow-x: hidden;*/
+    padding: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .desc-list {
+        overflow-x: auto;
+    }
+}
+.desc-list:focus,
+.desc-list:hover {
+    overflow-x: auto;
+}
+.desti-title {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.desti {
+    padding: 10px;
+}
+.desti-card {
+    width: min-content;
+    border: 0.5px solid rgba(255, 255, 255, 0.26);
+    border-radius: 8px 8px 8px 8px;
+    height: 213.5px;
+}
+.desti-card > img {
+    border-radius: 8px 8px 0 0;
+}
+.desti-card > .title {
+    padding: 10px;
+    font-weight: 700;
+}
+.desti-card > .desc {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.discover-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-image: 
+    linear-gradient( black, rgba(0, 0, 0, 0), black),
+    url("./images/wildlife.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+
+}
+.disc-intro {
+    width: 50%;
+}
+.disc-vid {
+    width: 50%;
+}
+@media screen and (max-width: 1000px) {
+    .disc-intro {
+        width: 100%;
+    }
+    .disc-vid {
+        width: 100%;
+    }
+    .discover-section {
+        background-position: left;
+    }
+  }
+.disc-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+.disc-desc {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+
+.culture-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-image: 
+    linear-gradient( black, rgba(0, 0, 0, 0), black),
+    url("./images/heritage.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    height: 300px;
+
+}
+
+.t-exp-section {
+    margin-top: 30px;
+    background-image: 
+    linear-gradient( black, rgba(0, 0, 0, 0), black),
+    radial-gradient(circle, rgba(0, 0, 0, 0), black),
+    url(/images/banner2.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t-exp-title {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.t-exp-img {
+    width: 200px;
+    height: 120px;
+}
+
+.t-exp-card {
+    cursor: pointer;
+    background-color: black;
+}
+.t-exp-card:hover {
+    background-color: rgb(14, 13, 13);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.hint {
+    color: gray;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hotels-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-image: 
+    linear-gradient( black, rgba(0, 0, 0, 0), black),
+    url("./images/hotels.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+
+}
+
+.bottom {
+    height: 100px;
+    width: 100%;
+}
+.bottom-details {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-icon {
+    height: 30px;
+    width: 30px;
+}
